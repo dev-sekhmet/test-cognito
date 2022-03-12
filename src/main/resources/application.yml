@@ -1,0 +1,17 @@
+application:
+  aws:
+    access-key:
+    secret-key:
+    cognito:
+      user-pool-id:
+    region:
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
