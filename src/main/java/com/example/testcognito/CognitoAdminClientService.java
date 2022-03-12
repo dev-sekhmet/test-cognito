@@ -24,7 +24,7 @@ public class CognitoAdminClientService {
         AttributeType emailAttr = new AttributeType().withName("email").withValue(email);
         AttributeType nameAttr = new AttributeType().withName("name").withValue(name);
         AttributeType emailVerifiedAttr =
-                new AttributeType().withName("email_verified").withValue("false");
+                new AttributeType().withName("email_verified").withValue("true");
 
         AdminCreateUserRequest userRequest =
                 new AdminCreateUserRequest().withUserPoolId(userPoolId).withUsername(email)
